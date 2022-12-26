@@ -1,19 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool palindrome(string s) 
-{   
-
-    return 1;
-}
-int main ()
+int main()
 {
-    vector<int> v  = {1,2,1,3,5};
-    map<int,int> m;
-    for (auto i : v)
-         m[i]++;
-    for (auto i : m) 
-    cout << i.first  << " " << i.second << endl; 
+    int a = 90;
+    int b = 5 ;
+    // int c = ;
+    // K<<N = K*2^N
+    cout << (1<<b) << endl;
+    // n>>k = n/(2k)
+    cout << (b>>1);
 
     return 0;
 }
