@@ -1,0 +1,1 @@
+{"name":"Local: q2","url":"d:\\VS CODE\\Laptop-VS-code\\cdlong2\\q2.cpp","tests":[{"id":1670683703427,"input":"5\n10 20 3\n36 36 5\n50 4 100\n30 4 2\n4 30 2","output":"4\n0\n1\n13\n13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\VS CODE\\Laptop-VS-code\\cdlong2\\q2.cpp","group":"local","local":true}

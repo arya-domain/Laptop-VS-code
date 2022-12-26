@@ -13,7 +13,7 @@ void bs (int arr , int s , int t )
         if ( arr[m] == t)
         {
             p = m;
-            break;
+            break;  
         }
         else if (arr[m+1]>arr[m-1] )
         {
