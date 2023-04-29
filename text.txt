@@ -1,0 +1,5 @@
+The most complication arises mainly during data preprocessing and identifying the features from a raw dataset. 
+During the processing of an RNA sequencing dataset that I made from scratch, I faced a difficulty of selection of features.
+As the dataset was composed of nurmic gene counts which was normalised with FPKM. 
+Thus which genes actually matters for the accuracy detection was difficult to select as there were total of 62.7K gene ids 
+present in single sample of the dataset.

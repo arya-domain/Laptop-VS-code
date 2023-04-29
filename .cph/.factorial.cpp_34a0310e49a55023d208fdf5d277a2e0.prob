@@ -1,0 +1,1 @@
+{"name":"Local: factorial","url":"d:\\VS CODE\\Laptop-VS-code\\factorial.cpp","tests":[{"id":1672284864752,"input":"120","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\VS CODE\\Laptop-VS-code\\factorial.cpp","group":"local","local":true}
