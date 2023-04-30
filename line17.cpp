@@ -1,64 +1,62 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void bs (int arr , int s , int t )
+void bs(int arr, int s, int t)
 {
     int l = 0;
-    int u = s-1;
+    int u = s - 1;
     int m = 0;
     int p;
-    m = (l+u)/2 ;
-    while ( l<m && u>m )
+    m = (l + u) / 2;
+    while (l < m && u > m)
     {
-        if ( arr[m] == t)
+        if (arr[m] == t)
         {
             p = m;
-            break;  
+            break;
         }
-        else if (arr[m+1]>arr[m-1] )
+        else if (arr[m + 1] > arr[m - 1])
         {
-            if(arr[m]> t)
+            if (arr[m] > t)
             {
                 l = m;
-                m = (l+u)/2 ;
+                m = (l + u) / 2;
             }
-            else 
+            else
             {
                 u = m
             }
-            
         }
-        else 
+        else
         {
-
         }
     }
-
 }
-int pivot(int arr , int l , int u , int s)
+int pivot(int arr, int l, int u, int s)
 {
-    if ( s == 0)
+    int mid;
+    if (s == 0)
     {
-        return -1 ;
+        return -1;
     }
-    if ( size == 1 )
+    if (size == 1)
     {
-        return 1 ;
+        return 1;
     }
-     
-    int mid = (l+u)/2;
-    if (mid < u && arr[mid] < arr[mid +1])
-    
+
+    int mid = (l + u) / 2;
+    if (mid < u && arr[mid] < arr[mid + 1])
 }
-int main 
-{   
+int main()
+{
+    int s;
     cout << "Enter the size of the array :\n";
     cin >> s;
 
     int arr[s];
 
     cout << "Enter the Elements of the array \n";
-    for (int i = 0 , i< s ; i++)
+    for (int i = 0, i < s; i++)
     {
         cin >> arr[i];
     }
@@ -66,8 +64,7 @@ int main
     cout << "Enter the Target Element \n";
     int target;
     cin >> target
-    // int size = sizeof(arr)/sizeof(arr[0]);
+           // int size = sizeof(arr)/sizeof(arr[0]);
 
-    bs(arr , s , target)
-    
+           bs(arr, s, target)
 }
