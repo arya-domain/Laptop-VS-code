@@ -1,0 +1,1 @@
+{"name":"Local: first_last","url":"e:\\VS Code\\OLD\\C++\\Laptop-VS-code\\first_last.cpp","tests":[{"id":1682811943749,"input":"1\n2\n2 2\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\VS Code\\OLD\\C++\\Laptop-VS-code\\first_last.cpp","group":"local","local":true}
