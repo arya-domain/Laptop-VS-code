@@ -1,0 +1,1 @@
+{"name":"Local: z1","url":"d:\\VSCODE\\Laptop-VS-code\\z1.cpp","tests":[{"id":1682745931829,"input":"1\n6\n-1 0 3 5 9 12\n9","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\VSCODE\\Laptop-VS-code\\z1.cpp","group":"local","local":true}
